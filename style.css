@@ -30,6 +30,11 @@ main {
 footer {
   background-color: rgb(98, 114, 114);
   height: 80px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*
@@ -121,3 +126,53 @@ MAIN
 FOOTER
 
 */
+
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6,
+.sec-7,
+.sec-8,
+.sec-9 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.selector {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.sec-6 > i {
+  color: green;
+}
+
+.endmeet {
+  color: red;
+  background-color: gainsboro;
+  width: 100px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parte-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.parte-2 {
+  display: flex;
+  justify-content: center;
+}
